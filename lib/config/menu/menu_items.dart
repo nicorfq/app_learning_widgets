@@ -2,13 +2,13 @@ import 'package:flutter/material.dart' show IconData, Icons;
 
 class MenuItem {
   final String title;
-  final String subtitle;
+  final String subTitle;
   final String link;
   final IconData icon;
 
   const MenuItem(
       {required this.title,
-      required this.subtitle,
+      required this.subTitle,
       required this.link,
       required this.icon});
 }
@@ -16,13 +16,13 @@ class MenuItem {
 const appMenuItems = <MenuItem>[
   MenuItem(
     title: 'Botones',
-    subtitle: 'Varios botones en Flutter',
+    subTitle: 'Varios botones en Flutter',
     link: '/buttons',
     icon: Icons.smart_button_outlined,
   ),
   MenuItem(
     title: 'Tarjetas',
-    subtitle: 'Un contenedor estilizado',
+    subTitle: 'Un contenedor estilizado',
     link: '/card',
     icon: Icons.credit_card,
   ),
